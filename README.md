@@ -34,7 +34,7 @@ The goal of this project is to demonstrate backend design thinking, clean code, 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/abhi-bochare/Inventory-Management-System-API.git
-cd inventory-api
+cd Inventory-Management-System-API
 ```
 
 ### 2. Install dependencies
