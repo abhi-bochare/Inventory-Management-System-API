@@ -65,11 +65,11 @@ node server.js
 ```
 - If everything works, you’ll see:
 ```arduino
-MongoDB connected
-Server running on port 5000
+Server is running on http://localhost:3000
+MongoDB Connected Successfully...
 ```
 Your API is live at:
-- 👉 `http://localhost:5000/api/products`
+- 👉 `http://localhost:3000/api/products`
 
 ---
 
@@ -110,9 +110,11 @@ Your API is live at:
 
 ## 🧰 Project Structure
 ```
-inventory-api/
+Inventory-Management-System-API/
 ├── server.js                # App entry point
 ├── .env                     # Environment variables (ignored in .gitignore)
+├── config/
+│   └── db.js                # Connection to DB
 ├── models/
 │   └── Product.js           # Mongoose schema
 ├── routes/
