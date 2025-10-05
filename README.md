@@ -42,13 +42,13 @@ cd Inventory-Management-System-API
 npm install
 ```
 
-### 3. Create an .env file in the project root
-- Your .env file should look like this:
+### 3. Create an `.env` file in the project root
+- Your `.env` file should look like this:
 ```env
 MONGO_URI=mongodb://127.0.0.1:27017/inventory_db
 PORT=5000
 ```
-- 📝 You can replace the MONGO_URI with your own MongoDB connection string if you’re using Atlas or Docker.
+- 📝 You can replace the `MONGO_URI` with your own MongoDB connection string if you’re using Atlas or Docker.
 
 
 ### 4. Start MongoDB
@@ -69,7 +69,7 @@ MongoDB connected
 Server running on port 5000
 ```
 Your API is live at:
-- 👉 http://localhost:5000/api/products
+- 👉 `http://localhost:5000/api/products`
 
 ---
 
@@ -92,19 +92,19 @@ Your API is live at:
 
 1. Stock quantity cannot be negative — handled by logic validation and Mongoose schema.
 
-2. Low stock means stock_quantity < low_stock_threshold.
+2. Low stock means `stock_quantity` < `low_stock_threshold`.
 
 3. Default values:
 
-    - stock_quantity: 0
+    - `stock_quantity:` 0
 
-    - low_stock_threshold: 5
+    - `low_stock_threshold:` 5
 
 4. Clean API design: Modular structure for scalability.
 
 5. Error Handling: Consistent 400, 404, 500 responses with descriptive messages.
 
-6. Environment Variables: All config values (DB URI, port) stored in .env to keep code environment-agnostic.
+6. Environment Variables: All config values (DB URI, port) stored in `.env` to keep code environment-agnostic.
 
 ---
 
@@ -124,10 +124,10 @@ inventory-api/
 
 ---
 
-## 👨‍💻 Author
+## 👨‍🎓 Author
 
-- Abhishek Bochare
-- Full Stack Developer
-- 📧 abhishekbochare2003@gmail.com
+**Abhishek Bochare**  
+📧 **abhishekbochare2003@gmail.com**  
+🔗 **GitHub**: https://github.com/abhi-bochare
 
 ---
