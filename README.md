@@ -84,7 +84,7 @@ Your API is live at:
 | **DELETE** | `/api/products/:id`              | Delete a product                     |
 | **POST**   | `/api/products/:id/increase`     | Increase stock                       |
 | **POST**   | `/api/products/:id/decrease`     | Decrease stock (with validation)     |
-| **GET**    | `/api/products/low-stock/list`   | List products below low-stock limit  |
+| **GET**    | `/api/products/low-stock`        | List products below low-stock limit  |
 
 ---
 
@@ -96,7 +96,7 @@ Your API is live at:
 
 3. Default values:
 
-    - `stock_quantity:` 0
+    - `stock_quantity:` 1
 
     - `low_stock_threshold:` 5
 
